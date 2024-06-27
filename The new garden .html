@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>My HTML Page</h1>
+  </body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Cleaning Ltd</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .banner {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+            background-size: cover;
+            padding: 100px 0;
+            text-align: center;
+            color: white;
+        }
+        .banner h1 {
+            margin: 0;
+            font-size: 50px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .services, .contact-info {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Garden Cleaning Ltd</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="banner" id="home">
+        <h1>Transform Your Garden Today</h1>
+        <p>Contact us for professional garden cleaning services</p>
+    </div>
+    <div class="container">
+        <div class="services" id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li><strong>Lawn Care:</strong> Mowing, edging, and fertilizing to keep your lawn healthy.</li>
+                <li><strong>Hedge Trimming:</strong> Shaping and trimming hedges for a neat look.</li>
+                <li><strong>Leaf Removal:</strong> Clearing fallen leaves to maintain a tidy garden.</li>
+                <li><strong>Garden Waste Removal:</strong> Efficient removal of garden debris and waste.</li>
+            </ul>
+        </div>
+        <div class="about" id="about">
+            <h2>About Us</h2>
+            <p>Founded in [2024], Garden Cleaning Ltd is dedicated to providing exceptional garden cleaning services. Our team of professionals is passionate about maintaining beautiful gardens.</p>
+            <p>Ernie Jacks, founder of Garden Cleaning Ltd, has over 10 years of experience in garden maintenance and landscaping.</p>
+        </div>
+        <div class="contact-info" id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:erniejacks12@gmail.com">erniejacks12@gmail.com</a></p>
+            <p>Phone: <a href="tel:07597371674">07597371674</a></p>
+            <h3>Contact Form</h3>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <footer>
+        © 2024 Garden Cleaning Ltd. All rights reserved.
+    </footer>
+</body>
+</html>
